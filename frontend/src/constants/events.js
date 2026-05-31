@@ -1,0 +1,15 @@
+export const SOCKET_EVENTS = {
+  JOIN_ROOM: 'join_room',
+  LEAVE_ROOM: 'leave_room',
+  SEND_MESSAGE: 'send_message',
+  TYPING: 'typing',
+  STOP_TYPING: 'stop_typing',
+  MESSAGE_RECEIVED: 'message_received',
+  ROOM_JOINED: 'room_joined',
+  USER_JOINED: 'user_joined',
+  USER_LEFT: 'user_left',
+  PRESENCE_UPDATE: 'presence_update',
+  ONLINE_USERS: 'online_users',
+  TYPING_INDICATOR: 'typing_indicator',
+  ERROR: 'error',
+};
