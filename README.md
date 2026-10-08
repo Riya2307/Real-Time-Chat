@@ -93,8 +93,3 @@ The React app starts on `http://localhost:5173`.
 - **Horizontal scaling** — add `@socket.io/redis-adapter` in `backend/src/socket/index.js` to sync events across multiple server instances
 - **API/Socket separation** — REST handles reads/history; sockets handle real-time writes and presence
 
-## Usage
-
-1. Open `http://localhost:5173` in two browser tabs
-2. Enter different usernames and join the same room (e.g. `general`)
-3. Send messages — they appear instantly in both tabs and persist in MongoDB
